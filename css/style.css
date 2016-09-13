@@ -1,0 +1,153 @@
+div.contenedor {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Raleway",sans-serif;
+	padding: 10px 0;
+
+
+	}
+
+
+header	{
+	background-image: url('../assets/indexbanner-bg3.jpg');
+    height: 528px;
+    background-size: cover;
+}
+
+nav ul {
+	float: right;
+	display: inline-block;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+a {
+      color: #182632;
+      text-decoration: none;
+        outline: none;
+}
+
+a:hover{
+    color: #A7AAAD;
+}
+
+nav ul li {
+margin: 5px 10px;
+display: inline-block;
+
+}
+header h1 {
+	font-size: 40px;
+	display: block;
+	font-weight: 700;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.texto-header {
+	color:white;
+	font-family:"Raleway",sans-serif; 
+	position: absolute;
+	padding: 300px 150px; 
+}
+
+.sec-search-dom {
+    width:80%;
+    box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.09);
+    margin: -50px 0 0;
+   }
+.sec-search-dom form {
+    position: relative;
+}
+
+.input-search-dom {
+    border-radius: 0;
+    font-size: 18px;
+    padding: 36px 35px 36px 30px;
+    margin: 0;
+    border: 1px solid #e1e3e4;
+    box-shadow: inset 0px 5px 3px -4px rgba(50, 50, 50, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sec-search-dom form input[type="submit"] {
+    background: #00abf0 no-repeat scroll 31px 42px;
+    border: 0 none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 39px 30px 40px 62px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+
+.nosotros{
+	padding: 120px 15px 80px;
+}
+
+.nosotros article {
+	display: inline-block;
+    margin: 0 0 20px;
+    min-height: 100px;
+    padding: 0 10px;
+    width: 20%;
+    text-align: center;
+}
+
+ h2 {
+	font-size: 20px;
+    padding-top: 30px;
+	font-family: "Raleway",sans-serif; 
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.nosotros article p {
+	font-family: "Raleway",sans-serif; 
+	line-height: 25px;
+    padding-top: 30px;
+}
+
+.titulo-servicios {
+   text-align: center;
+}
+
+.servicios {
+    float:left;
+    max-width: 300px;
+}
+
+
+.titulo-servicios h4 {
+    font-family: "Raleway",sans-serif; 
+    line-height: 25px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.servicios p {
+    font-family: "Raleway",sans-serif; 
+    line-height: 25px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.servicios h5 {  
+    font-size: 11px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.pricing {
+   text-align: center;
+}
+
+.pricing h4 {
+    font-family: "Raleway",sans-serif; 
+    line-height: 25px;
+    padding-top: 10px;
+    font-size: 14px;
+}
